@@ -166,7 +166,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ setActiveTab }) => {
               >
                 <div className="relative overflow-hidden rounded-2xl">
                   <img
-                    src={`${import.meta.env.BASE_URL}hero-poster.jpg`}
+                    src="/hero-poster.jpg"
                     alt="بوستر سطحة صامطة - مؤسسة محيط الشرق الأوسط للنقل"
                     className="w-full h-auto object-cover transform group-hover:scale-105 transition-transform duration-500 rounded-xl bg-slate-950 shadow-inner"
                     referrerPolicy="no-referrer"
@@ -257,7 +257,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ setActiveTab }) => {
             </button>
             <div className="overflow-auto max-h-[80vh] rounded-2xl border-2 border-red-500 shadow-2xl bg-slate-900 p-2">
               <img
-                  src={`${import.meta.env.BASE_URL}hero-poster.jpg`}
+                src="/hero-poster.jpg"
                 alt="بوستر سطحة صامطة بحجم كامل"
                 className="w-full h-auto object-contain rounded-xl max-h-[80vh] mx-auto"
                 onClick={(e) => e.stopPropagation()}
